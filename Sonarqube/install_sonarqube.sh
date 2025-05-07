@@ -9,7 +9,7 @@ sudo cp /etc/sysctl.conf /root/sysctl.conf_backup
     ulimit -u 4096
 EOF'
     sudo apt update -y
-    sudo apt-get install openjdk-11-jdk -y
+    sudo apt install openjdk-17-jre-headless -y
 
 # Postgres Database installation and setup
     wget -q https://www.postgresql.org/media/keys/ACCC4CF8.asc -O - | sudo apt-key add -
