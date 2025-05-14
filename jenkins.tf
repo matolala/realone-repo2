@@ -107,7 +107,7 @@ count = 0  # disables this resource
   connection {
     type        = "ssh"
     user        = "ubuntu"
-    private_key = file("~/Downloads/martins.pem")
+    private_key = file("~/Downloads/devopskeypair.pem")
     host        = aws_instance.ec2_instance.public_ip
   }
 
