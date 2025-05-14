@@ -33,7 +33,7 @@ module "eks" {
       desired_size = 3
 
       instance_types = ["t2.small"]
-      key_name       = "martins"
+      key_name       = "devopskeypair"
     }
   }
 }
